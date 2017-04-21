@@ -136,7 +136,7 @@ body {
 	max-width: 1024px;
 }
 
-.copyright, .font-credit {
+.copyright, {
 	display: inline;
 	float: right;
 	font-size: 10px;
@@ -556,9 +556,9 @@ header h1 {
 		width: 100%;
 	}
 
-	.copyright, {
+	.copyright {
 		display: block;
-		float: right;
+		float: center;
 		margin: 0 auto;
 		max-width: 100%;
 		padding-bottom: 30px;
