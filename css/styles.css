@@ -462,6 +462,19 @@ header h1 {
 	height: 663px;
 }
 
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
 
 /**********  Responsive **********/
@@ -491,6 +504,7 @@ header h1 {
 
 	header {
 		padding-bottom: 0;
+		text-align: center;
 	}
 
 	.header-discipline {
