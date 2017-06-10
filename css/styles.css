@@ -136,7 +136,7 @@ body {
 	max-width: 1024px;
 }
 
-.copyright, {
+.copyright {
 	display: inline;
 	float: right;
 	font-size: 10px;
@@ -364,7 +364,7 @@ header h1 {
 }
 
 .project-title a:hover {
-	color: #FF9586;
+	color: #93AD75;
 }
 
 .resume {
@@ -557,8 +557,9 @@ header h1 {
 	}
 
 	.copyright {
+		float: none;
 		display: block;
-		float: center;
+		text-align: center;
 		margin: 0 auto;
 		max-width: 100%;
 		padding-bottom: 30px;
