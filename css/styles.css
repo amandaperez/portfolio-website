@@ -136,7 +136,7 @@ body {
 	max-width: 1024px;
 }
 
-.copyright, .font-credit {
+.copyright {
 	display: inline;
 	float: right;
 	font-size: 10px;
@@ -364,7 +364,7 @@ header h1 {
 }
 
 .project-title a:hover {
-	color: #FF9586;
+	color: #93AD75;
 }
 
 .resume {
@@ -462,6 +462,19 @@ header h1 {
 	height: 663px;
 }
 
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
 
 /**********  Responsive **********/
