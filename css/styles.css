@@ -370,7 +370,7 @@ header h1 {
 .resume {
 	float: left;
 	max-width: 55%;
-	padding: 0 0 40px 10px;
+	padding: 0 0 20px 10px;
 }
 
 .resume h3 {
@@ -384,7 +384,7 @@ header h1 {
 	color: #2E568A;
 }
 
-.resume .exhibit  {
+.resume .exhibit p {
 	color: #2E568A;
 }
 
@@ -393,7 +393,7 @@ header h1 {
 	color: #83B9D6;
 }
 
-.resume .graphic  {
+.resume .graphic p {
 	color: #83B9D6;
 }
 
@@ -402,7 +402,7 @@ header h1 {
 	color: #93AD75;
 }
 
-.resume .digital {
+.resume .digital p {
 	color: #93AD75;
 }
 
@@ -411,7 +411,7 @@ header h1 {
 	color: #FF9586;
 }
 
-.resume .photography {
+.resume .photography p {
 	color: #FF9586;
 }
 
