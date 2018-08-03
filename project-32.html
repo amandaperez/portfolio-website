@@ -16,11 +16,13 @@
 	<!---Google Font-->
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 
-	<!--css Style Sheet-->
-	<link rel="stylesheet" href="css/normalize.css" media="screen" type="text/css" />
-
+	<!--CSS Style Sheet-->
 	<link rel="stylesheet" href="css/styles.css" media="screen" type="text/css" />
 
+	<link rel="stylesheet" href="css/normalize.css" media="screen" type="text/css" />
+
+	<!--Skippr Plugin CSS Style Sheet-->
+	<link rel="stylesheet" href="css/jquery.skippr.css">
 	
 </head>
 
@@ -34,9 +36,9 @@
 				
 				<div class="header-discipline">
 					<ul>
-						<li class="exhibit">Exhibits |</li>
-						<li class="graphic">Graphics |</li>
-						<li class="digital">Digital |</li>
+						<li class="exhibit">Exhibits</li>
+						<li class="graphic">Graphics</li>
+						<li class="digital">Digital</li>
 						<li class="photography">Photography</li>
 					</ul>
 				</div>
@@ -48,54 +50,34 @@
 
 			<nav class="navigation">
 				<ul>
-					<li><a href="#">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="projects.html">Projects</a></li>
-					<li><a href="about.html">About</a></li>	
+					<li><a href="about.html">About</a></li>
 				</ul>
 			</nav>
 		</header>
 
 	<!--Hero Image Area-->
 
-		<div class="hero-area">
-			<p>Welcome to my website profolio!<br>
-				I am a exhibit and graphic designer, a photographer, a crafter and novice coding enthusiast. <br>
+	<div class="project-title">
+		<h3>National Archives Museum Website Redesign</h3>
+		<p>In 2018, completed a cross training detail working with the National Archives Web Program on projects for the Museum. We completed a full responsive redesign of the museum site launching before our busy tourist season. I was part of the UX team conducting several rounds of user testing (one on one interviews, card sorting, mobile beta testing, reviewed user web recordings). As a visual designer on the team I created wireframes, UI mockups, illustrated infrographics, and coordinated the content for the Exhibitions Program. I used: Adobe Illustrator CC, Adobe Photoshop CC, Sketch, HTML, CSS...and Sharpies and Post It!<br>
+			<a href="https://narations.blogs.archives.gov/2018/05/07/one-click-or-less-redesigning-the-national-archives-museum-website-to-better-meet-visitor-needs/" target="_blank"</a>Read the Project Blog Post</p></a>
 
-			<br>Please take a look at my latest completed projects below in <b>Featured Projects</b> or visit my <b><a href="projects.html">Projects</a></b> page for the full portfolio of my work.</p>
-		</div>
+
+	</div>
 
 	<!--New Projects Area-->
 
-		<div class="featured-projects">
-			<h2>Featured Projects</h2>
-					<div class="new-project">
-						<a href="project-32.html"><img src="images/new-work/nam-website.jpg" width="230px" alt="eBook Book Cover"/></a>
-						<p>National Archives Museum Website Redesign</p>
-					</div>
-
-					<div class="new-project">
-						<a href="project-31.html"><img src="images/new-work/rv-exhibit.jpg" width="230px" alt="exhibit banners"/></a>
-						<p>NOW OPEN! Remembering Vietnam Exhibition</p>
-					</div>
-
-					<div class="new-project">
-						<a href="project-29.html"><img src="images/new-work/letterpress.jpg" width="230px" alt="exhibit photo"/></a>
-						<p>Letterpress <br> 
-							Workshops</p>
-					</div>
-
-					<div class="new-project">
-						<a href="project-22.html"><img src="images/new-work/mtm-ebook.jpg" width="230px" alt="eBook Book Cover"/></a>
-						<p>Making Their Mark Exhibit eGuide</p>
-					</div>
-		</div>
-
-
+		<div id="slideshow-area">
+            <img src="images/project-slideshow/nam-website/nam-mobile.jpg" width="100%"/> 
+        </div>
+		
+	
 	<!--Footer-->
 
-		<footer class="clearfix">
-
-			<div class="social-media">
+	<footer class="clearfix">
+		<div class="social-media">
 			
 			<a href="https://www.linkedin.com/in/amandaperezdesign/" target="_blank"><img src="images/social-media-icons/linkedin.jpg" alt="linkedin logo" width="40"></a>
 
@@ -107,10 +89,9 @@
 
 		</div>
 
+		<div Class="copyright">&copy; 2018 Amanda Perez | All Rights Reserved</div>
 
-			<div class="copyright">&copy; 2018 Amanda Perez | All Rights Reserved</div>
-
-		</footer>
+	</footer>
 
 	</div>
 
@@ -122,6 +103,7 @@
 	<!--Skippr JavaScript Plugin-->
    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
    <script src="js/jquery.skippr.js"></script>
+
 
 </body>
 </html>
