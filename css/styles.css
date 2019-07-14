@@ -205,6 +205,14 @@ header h1 {
 	width: 45%;
 }
 
+.resume-sidebar li a {
+	font-weight: bold;
+}
+
+.resume-sidebar li a:hover {
+	color: #949494;
+}
+
 .mobile-nav {
 	display: none;
 }
