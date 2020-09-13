@@ -205,6 +205,10 @@ header h1 {
 	width: 45%;
 }
 
+.hero-area a:hover {
+	color: #949494;
+}
+
 .resume-sidebar li a {
 	font-weight: bold;
 }
@@ -283,23 +287,23 @@ header h1 {
 }
 
 .portfolio-project.exhibit {
-	background-color: #2E568A;
-	border-bottom: 3px solid #14253B;
+	background-color: #0F3586;
+	border-bottom: 3px solid #152c5e;
 }
 
 .portfolio-project.graphic {
-	background-color: #83B9D6;
-	border-bottom: 3px solid #56798C;
+	background-color: #8D1575;
+	border-bottom: 3px solid #730373;
 }
 
 .portfolio-project.digital {
-	background-color: #93AD75;
-	border-bottom: 3px solid #505E40;
+	background-color: #008099;
+	border-bottom: 3px solid #006078;
 }
 
 .portfolio-project.photography {
-	background-color: #FF9586;
-	border-bottom: 3px solid #A86258;
+	background-color: #CA0C4E;
+	border-bottom: 3px solid #a4184c;
 }
 
 .portfolio-project a:hover {
@@ -328,22 +332,22 @@ header h1 {
 }
 
 .projects-intro .exhibit  {
-	color: #2E568A;
+	color: #0F3586;
 	font-weight: bold;
 }
 
 .projects-intro .graphic  {
-	color: #83B9D6;
+	color: #8D1575;
 	font-weight: bold;
 }
 
 .projects-intro .digital {
-	color: #93AD75;
+	color: #008099;
 	font-weight: bold;
 }
 
 .projects-intro .photography {
-	color: #FF9586;
+	color: #CA0C4E;
 	font-weight: bold;
 }
 
@@ -388,39 +392,39 @@ header h1 {
 }
 
 .resume .exhibit h3 {
-	border-bottom: 1px solid #2E568A;
-	color: #2E568A;
+	border-bottom: 1px solid #0F3586;
+	color: #0F3586;
 }
 
 .resume .exhibit p {
-	color: #2E568A;
+	color: #0F3586;
 }
 
 .resume .graphic h3 {
-	border-bottom: 1px solid #83B9D6;
-	color: #83B9D6;
+	border-bottom: 1px solid #8D1575;
+	color: #8D1575;
 }
 
 .resume .graphic p {
-	color: #83B9D6;
+	color: #8D1575;
 }
 
 .resume .digital h3 {
-	border-bottom: 1px solid #93AD75;
-	color: #93AD75;
+	border-bottom: 1px solid #008099;
+	color: #008099;
 }
 
 .resume .digital p {
-	color: #93AD75;
+	color: #008099;
 }
 
 .resume .photography h3 {
-	border-bottom: 1px solid #FF9586;
-	color: #FF9586;
+	border-bottom: 1px solid #CA0C4E;
+	color: #CA0C4E;
 }
 
 .resume .photography p {
-	color: #FF9586;
+	color: #CA0C4E;
 }
 
 .resume p ul {
